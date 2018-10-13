@@ -28,20 +28,20 @@ Managed teaching staff and administrative staff at an Adult Education center spe
 ###### International Pioneers School – Bangkok, Thailand – 2014 – 2015
 
 ### Education
-##### Javascript Algorithms and Data Structures – July 2018 
-##### Responsive Web Design Certification – June 2018
-##### Free Code Camp – freecodecamp.com
+ Javascript Algorithms and Data Structures – July 2018 
+ Responsive Web Design Certification – June 2018
+ Free Code Camp – freecodecamp.com
 
-##### MongoDB Developer Courses
-##### MongoDB University
-##### MongoDB Basics, MongoDB Performance, MongoDB for Node.js Devs, MongoDB for Devs – 2017
+ MongoDB Developer Courses
+ MongoDB University
+ MongoDB Basics, MongoDB Performance, MongoDB for Node.js Devs, MongoDB for Devs – 2017
 
 #### B.A. in Music – Graduated Cum Laude
-##### University of North Texas – 2012
+ University of North Texas – 2012
 
-#### Business English Teaching Certificate - 2012
-##### 120 Hour TEFL Teaching Certificate - 2011
-##### The International TEFL Corporation – Phuket, Thailand
+ Business English Teaching Certificate - 2012
+ 120 Hour TEFL Teaching Certificate - 2011
+ The International TEFL Corporation – Phuket, Thailand
 					
 ### Skills
 Java, Object Oriented Programming, Functional Programming, Web Security Basics, API Design and implementation, Full Stack Application Development, HTML5, CSS3, JS ( ES6 ), Git, Version Control, jQuery, Bootstrap, Node.js, Express.js, MySQL, MongoDB, React.js, 
