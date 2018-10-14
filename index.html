@@ -1,0 +1,522 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+
+<!-- 
+To do still:
+- Add picture gallery of photos of nature, food, menu, promotional editing done for BIA, pics from WP site
+    -MAKE IT INTO A POP OUT PICTURE GALLERY THAT USES ARROW KEYS FOR EASY NAVIGATION (OR MAYBE NOT POP OUT)
+- Get the ul style-type:disc to work PROPERLY WHY ISN"T IT COMING THROUGH>>>
+- Put in logos and images
+- Put in progress bars for tech skills
+- Update Job skills used to include SOFT SKILLS AS WELL
+- Take a look at the final projects for MongoDB courses and get some sort of basic visual version to screen cap for works completed
+- Make sure you have a link to a fully functioning version of the final project app (shopping cart is probably the best option here)
+- Fix the on.hover to display the full description on hover, but the project name just beneath the preview screenshot
+ -->
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="Website%20Landing%Screenshot.png" />
+<title>Alex Harrison</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div id="hiddenpic" class="hidden"> <img src="Alex%20Harrison%20Resume%20Screenshot.png">
+
+  </div>
+
+<!-- Header Section -->
+<section class="banner" role="banner"> 
+  <!-- Navigation Section -->
+  <header id="header">
+    <div class="header-content clearfix"> <a class="logo" href="#">Alex Harrison</a>
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#introduction">About Me</a></li>
+          <li><a href="#campaigns">Projects</a></li>
+          <li><a href="#work-history">Work History & Resume</a></li>
+          <li><a href="mailto:alexanderjosephharrison@gmail.com">Contact Me</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!-- Navigation Section --> 
+  <!-- Banner Section -->
+  <div class="container">
+    <div class="col-md-7 banner-inner-wrapper">
+      <div class="banner-text">
+        <h1>Alex Harrison</h1>
+        <p>Web Developer</p>
+        <!-- href should open a preview of the -->
+        <a href="https://www.linkedin.com/in/alexander-harrison-60233ab8/" target="_blank" class="btn">Find out more</a> </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+  <!-- Banner Section --> 
+</section>
+<!-- Header Section --> 
+<!-- Intro Section -->
+<section id="introduction" class="section introduction">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="intro-content">
+         <!-- Need a background image behind this (non-distracting) -->
+          <h2 id="shadow-text">I make pretty, functional, and sometimes pretty functional things with code to make the innerwebs flow.</h2>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-6">
+        <div class="intro-content">
+          <p>I am seeking a position to build responsive, modern websites that solve business problems, communicate messages, and gather clean and reliable consumer / user data to enable business intelligence.</p>
+         
+
+          <p><a href="Alexander%20Harrison%20Resume.pdf" type="btn" target="_blank" >
+            <img class="resumeScreenShot"src="Alex%20Harrison%20Resume%20Screenshot.png" >
+            View My Resume</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="intro-content">
+          <h4>My Expertise</h4>         <!--  -->
+          <ul>
+            <li> <img  src="images/tech%20logos/html5%20css3%20combined%20logo.png" class="techlogo">- HTML5 CSS3</img></li> <!-- add progress bar here later -->
+            <li> <img src="images/tech%20logos/javascript.png" class="techlogo">- Javascript (ES6 and asyncronous programming)</img></li><!-- add progress bar here later -->
+            <li> <img src="images/tech%20logos/jquery.png" class="techlogo"></img>- J Query</li><!-- add progress bar here later -->
+            <li> <img src ="images/tech%20logos/mongodb.jpeg" class="techlogo"></img>- MongoDB</li><!-- add progress bar here later -->
+            <li> <img src="images/tech%20logos/react.png" class="techlogo"></img>- Reaect.js</li><!-- add progress bar here later -->
+            <li> <img src="images/tech%20logos/angular.png" class="techlogo"></img>- Angular</li><!-- add progress bar here later -->
+            <li> <img src="images/tech%20logos/music.png" class="techlogo"></img>- <a href="https://soundcloud.com/alex-harrison-25/tracks" target="_blank">Music (click to hear)</a> </li>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/104087025&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+            <!-- add progress bar here later -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Intro Section --> 
+
+<!-- Portfolio Section -->
+<section id="campaigns" class="campaigns section no-padding">
+  <div id="full-gallery">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+
+
+<!-- Jquery Weather App -->
+      <div class="flex-container col col-sm-4"><!-- This should show preview of the Jquery Weather App and link to the full app page (which should then have a link to codepen within itself) -->
+      <div class="work "> <a href="https://alexharrisonmusic.github.io/docs/Weather%20App%20JQuery/" class="work-box" target="_blank"> <img src="images/jquery%20screenshot.png" alt="/Users/Alex/Desktop/Exfi/Github/alexharrisonmusic.github.io/images/jquery%20screenshot.png">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p>This is a simple weather app using JQuery. It uses a string of promises (fulfilled by API calls to get the user IP / closest ISP location as well as weather details) to retrieve the local weather for the user and display it.<i class="fa fa-search-plus fa-2x"></i></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+        <div class="flex-item">
+            <p>Jquery Weather App</p>
+          </div>
+      </div>
+
+
+        <!-- Quote Tweeter -->
+        <div class="flex-container col col-sm-4">
+      <div class=" work"> <a href="https://alexharrisonmusic.github.io/docs/Quote%20Tweeter/" class="work-box" target="_blank"> <img src="images/quote%20tweeter%20screenshot.png" alt="/Users/Alex/Desktop/Exfi/Github/alexharrisonmusic.github.io/images/quote%20tweeter%20screenshot.png">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p>A very basic single page app that randomizes quotes and allows you to share them on twitter.<i class="fa fa-search-plus fa-2x"></i></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+        <div class="flex-item">
+          <p>Quote Generator and Tweeter</p>
+        </div>
+      </div>
+
+
+        <!-- Coltrane Tribute Page -->
+        <div class="flex-container col col-sm-4">
+      <div class=" work"> <a href="https:///alexharrisonmusic.github.io/docs/Coltrane%20Tribute/" target="_blank" class="work-box"> <img src="images/coltrane%20tribute%20screenshot.png"  alt="/Users/Alex/Desktop/Exfi/Github/alexharrisonmusic.github.io/images/coltrane%20tribute%20screenshot.png">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <p>This is a static information page tributed to John Coltrane, his life, and his music.<i class="fa fa-search-plus fa-2x"></i></p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+        <div class="flex-item">
+            <p>John Coltrane Tribute Page</p>
+          </div>
+      </div>
+<!-- Alex Harrison Music Wordpress Page -->
+<div class="flex-container col col-sm-4">
+    <div class=" work"> <a href="https://alexharrisonmusic.wordpress.com" target="_blank" class="work-box"> <img src="images/WP%20Screenshot.png" >
+      <div class="overlay">
+        <div class="overlay-caption">
+          <p>A Wordpress Site that I maintained for my past Saxophone and music students for their reference. Contains examples of my photography and photo editing skills.<i class="fa fa-search-plus fa-2x"></i></p>
+        </div>
+      </div>
+      <!-- overlay --> 
+      </a> </div>
+      <div class="flex-item">
+        <p>alexharrisonmusic.wordpress.com</p>
+      </div>
+    </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+</section>
+
+
+<!-- Other projects should be pushed into repository, then added to this index and properly screenshot, linked, and loaded -->
+
+
+<!-- work section --> 
+
+<!-- Work History Section - meant to contain ALL work history as Resume-->
+<section id="work-history" class="section work-history">
+
+  
+  <!-- Job 1 Upwork-->
+  <div class="flex-container jobs"><!-- overall container for each job-->
+    
+        <div class="flex-inner-container flex-item " id="logo-and-name"><!-- logo and company and Role and years -->
+          <div class="logo-container tiny-box flex-item">
+          <!-- need an additional <DIV> here so that I can define the box to hold the logo as fixed while the logo itself adjusts the img to fit the box -->
+    
+          <div class="job-logo tiny-box flex-item"><img src="" class="company-logo"> 
+            
+            <!--logo -->
+          </div>
+          </div>
+          <div class="flex-item"> <!-- Company name and location-->
+            <p class="resume tiny-box">Currently Seeking a Web Developer Position -<!-- maybe ad <br> here... --> Seattle, WA, USA</p>
+          </div>
+          <div class="tiny-box flex-item role-dates"><!-- Job title and dates-->
+            <h4>Currently seeking Front End Web Developer position in the Seattle Area. <br></h4>
+            <p>November 2017 - Present</p>
+          </div>
+        </div><!-- end logo and company and Role and years -->
+    
+        <div class="flex-inner-container flex-item "><!-- Job Title and desc container-->
+          <!-- Job description and responsibilities-->
+            <p>After moving across the country from Boston to Everett, WA, I am looking to buiild a network and start a new career here in the Seattle area. Please check out my work on Github <a href="https://github.com/alexharrisonmusic"> here, </a>or click on a project to view the project page.</p>
+          
+        </div>
+            <!-- Technologies Used and Awards Recieved -->
+            <!-- Make sure to align content properly -->
+          <div class="tech-and-awards flex-inner-container flex-item "><!-- Makes sure that both divs go in the same row but in separate columns--> 
+            <div class="tiny-box flex-item tech">
+            <h4>Technologies Used</h4> <br> <!-- MAYBE think about adding a section of courses completed to put all the MongoDB Courses and stuff too and -->
+            <ul class= "disclist">
+                <li> <div class="techlogo disclist" img=""></div> HTML5 / CSS3 / Javascript</li>
+                <li> <div class="techlogo" img=""></div>Jquery / React / Angular</li>
+                <li> <div class="techlogo" img=""></div>MongoDB </li>
+                <li> <div class="techlogo" img=""></div>MEAN / MERN Stack Development </li>
+                <li> <div class="techlogo" img=""></div>Asyncronous Programming / ES6 </li>
+            </ul>
+          </div>
+          
+          </div>
+      </div><!-- End of Job Container -->
+
+  <!-- Job 2 Mindshare-->
+  <div class="flex-container jobs"><!-- overall container for each job-->
+
+    <div class="flex-inner-container flex-item " id="logo-and-name"><!-- logo and company and Role and years -->
+      <div class="logo-container tiny-box flex-item">
+      <!-- need an additional <DIV> here so that I can define the box to hold the logo as fixed while the logo itself adjusts the img to fit the box -->
+  
+
+      <div class="job-logo tiny-box flex-item"><img src="images/tech%20logos/bia.png" class="company-logo"> 
+        
+        <!--logo -->
+      </div>
+      </div>
+      <div class="flex-item"> <!-- Company name and location-->
+        <p class="resume tiny-box"> <a href="https://www.bia.edu"> Boston International Academy </a> -<!-- maybe ad <br> here... --> Brighton, MA, USA</p>
+      </div>
+      <div class="tiny-box flex-item role-dates"><!-- Job title and dates-->
+        <h4>IT and Network Manager, Website and Wordpress Manager, Academic Manager, DSO for SEVIS <br></h4>
+        <p>May 2016 - October 2017 </p>
+      </div>
+    </div><!-- end logo and company and Role and years -->
+
+    <div class="flex-inner-container flex-item "><!-- Job Title and desc container-->
+      <!-- Job description and responsibilities-->
+        <p>
+            <ul class="disclist">
+                <li> Managed Network and IT concerns for all teaching staff, administrative staff, and students including a LAN with computers running Windows 98 - Windows 10, as well as personal laptops with current Mac OS versions.</li>  
+                <li> Resolved IP issues, network connectivity issues, software and OS problems for computers on network in a school network of around 23 LAN computers and up to 100 devices at a time.</li> <li> Managed and reorganized filing systems and inter-staff communication protocols while simultaneously performing all necessary tasks to process incoming students during a period of rapid 300% growth. </li>
+                <li> Acted as DSO (Designated School Official) for the US Government's SEVIS (Student and Exchange Visitor Information System). Managed enrollments and records internally and in synchronization with USCIS (United States Customs and Immigration Services) regulations.</li>
+        </ul>
+        </p>
+      
+    </div>
+        <!-- Technologies Used and Awards Recieved -->
+        <!-- Make sure to align content properly -->
+      <div class="tech-and-awards flex-inner-container flex-item "><!-- Makes sure that both divs go in the same row but in separate columns--> 
+        <div class="tiny-box flex-item tech">
+        <h4>Technologies Used</h4>
+        <ul class="disclist">
+            <li> Wordpress </li>
+            <li> HTML & CSS</li>
+            <li> Excel</li>
+            <li> Adobe Photoshop</li>
+            <li> Adobe InDesign</li>
+            <li> Quickschools - SaaS used to manage records, grades, registrations, enrollments, supporting documents, and automated messaging.</li>
+            <li> Slack</li>
+            <li> Google Documents / Google Drive - managed </li>
+        </ul>
+      </div>
+      <div class="tiny-box flex-item awards">
+        <h4>Achievements During Employment</h4>
+        <ul class="disclist">
+            <li> - Extended class offerings by creating a new partnership with a python coding school nearby.</li>
+            <li> - Optimized file storage and records maintenence procedures to be more efficient.</li>
+            <li> - Implemented use of messaging services (slack) and trained employees and created regular procedures to ensure that no information is lost over time between employees regarding students or records.</li>
+            <li> - School size increased by ~200%, teaching staff size grew, course offerings expanded, schedule offerings expanded. </li>
+            <li> - Grew social media presence and interactions of the school.</li>
+            
+        </ul>
+      </div>
+      </div>
+  </div><!-- End of Job Container -->
+
+   
+  <!-- Job 3 -->
+  <div class="flex-container jobs"><!-- overall container for each job-->
+    
+        <div class="flex-inner-container flex-item " id="logo-and-name"><!-- logo and company and Role and years -->
+          <div class="logo-container tiny-box flex-item">
+          <!-- need an additional <DIV> here so that I can define the box to hold the logo as fixed while the logo itself adjusts the img to fit the box -->
+      
+    
+          <div class="job-logo tiny-box flex-item"><img src="" class="company-logo"> 
+            
+            <!--logo -->
+          </div>
+          </div>
+          <div class="flex-item"> <!-- Company name and location-->
+            <p class="resume tiny-box"> Music & Arts<!-- maybe ad <br> here... --> - Newton, MA, USA</p>
+          </div>
+          <div class="tiny-box flex-item role-dates"><!-- Job title and dates-->
+            <h4>Senior Sales Associate, Woodwinds Specialist, Saxophone Expert Consultant  <br></h4>
+            <p> February 2016 - May 2016 </p>
+          </div>
+        </div><!-- end logo and company and Role and years -->
+    
+        <div class="flex-inner-container flex-item "><!-- Job Title and desc container-->
+          <!-- Job description and responsibilities-->
+          <p>
+              <ul class="disclist">
+                  <li> Managed placement and scheduling of musical instrument students and teachers.</li>  
+                  <li> Managed inventory, orders, and sales of music-related products.</li> 
+                  <li> Performed woodwind repairs and consulting for customers. </li>
+                  <li> Acted as saxophone specialist expert consultant at Music & Arts "Horns of Plenty" regional sales event.</li>
+          </ul>
+          </p>
+          
+        </div>
+            <!-- Technologies Used and Awards Recieved -->
+            <!-- Make sure to align content properly -->
+          <div class="tech-and-awards flex-inner-container flex-item "><!-- Makes sure that both divs go in the same row but in separate columns--> 
+            <div class="tiny-box flex-item tech">
+            <h4>Technologies Used</h4>
+            <ul>
+                <li> - Proprietary Sales and Lead Management Software System </li>
+                <li> - Proprietary Inventory and Order Management Software System</li>
+                <li> - Various types of recording technologies to demonstrate to potential customers</li>
+                <li> - Audio Amplification Equipment</li>
+            </ul>
+          </div>
+          <div class="tiny-box flex-item awards">
+            <h4>Achievements</h4>
+            <ul>
+                <li> Grew music lesson studio size (more students, more teachers) around 10%.</li>
+                <li> Aided in reaching sales goals for store, and regionally at the regional event.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                
+            </ul>
+          </div>
+          </div>
+      </div><!-- End of Job Container -->
+
+      
+  <!-- Job 4 -->
+  <div class="flex-container jobs"><!-- overall container for each job-->
+    
+        <div class="flex-inner-container flex-item " id="logo-and-name"><!-- logo and company and Role and years -->
+          <div class="logo-container tiny-box flex-item">
+          <!-- need an additional <DIV> here so that I can define the box to hold the logo as fixed while the logo itself adjusts the img to fit the box -->
+      
+    
+          <div class="job-logo tiny-box flex-item"><img src="" class="company-logo"> 
+            
+            <!--logo -->
+          </div>
+          </div>
+          <div class="flex-item"> <!-- Company name and location-->
+            <p class="resume tiny-box">Live Noodles, LLC -<!-- maybe ad <br> here... --> Boston, MA, USA</p>
+          </div>
+          <div class="tiny-box flex-item role-dates"><!-- Job title and dates-->
+            <h4>Promotional Photographer and Editor, Waitstaff Manager, Waiter <br></h4>
+            <p>August 2015 - January 2016 </p>
+          </div>
+        </div><!-- end logo and company and Role and years -->
+    
+        <div class="flex-inner-container flex-item "><!-- Job Title and desc container-->
+          <!-- Job description and responsibilities-->
+          <p>
+              <ul class="disclist">
+                  <li> Photographed dishes and edited lighting and color balance to showcase food.  </li>  
+                  <li> Created promotional images for menu, photographs around the restaurant, and on street-facing windows</li> 
+                  <li> Managed waitstaff training and scheduling.</li>
+                  <li> Created and managed social media and yelp account content and customer interactions.</li>
+          </ul>
+          </p>
+        </div>
+
+      
+            <!-- Technologies Used and Awards Recieved -->
+            <!-- Make sure to align content properly -->
+          
+      </div><!-- End of Job Container -->
+
+      
+
+      
+  <!-- Job 6 -->
+  <div class="flex-container jobs"><!-- overall container for each job-->
+    
+        <div class="flex-inner-container flex-item " id="logo-and-name"><!-- logo and company and Role and years -->
+          <div class="logo-container tiny-box flex-item">
+          <!-- need an additional <DIV> here so that I can define the box to hold the logo as fixed while the logo itself adjusts the img to fit the box -->
+          
+          <div class="job-logo tiny-box flex-item"><img src="" class="company-logo"> 
+            
+            <!--logo -->
+          </div>
+          </div>
+          <div class="flex-item"> <!-- Company name and location-->
+            <p class="resume tiny-box"><a href="http://ips.ac.th/">International Pioneers Schools</a> -<!-- maybe ad <br> here... --> Bangkok, Thailand</p>
+          </div>
+          <div class="tiny-box flex-item role-dates"><!-- Job title and dates-->
+            <h4>Music Teacher, English Literature Teacher, ESL Teacher<br></h4>
+            <p>August 2014 - July 2015 </p>
+          </div>
+        </div><!-- end logo and company and Role and years -->
+    
+        <div class="flex-inner-container flex-item "><!-- Job Title and desc container-->
+          <!-- Job description and responsibilities-->
+          <p>
+              <ul class="disclist">
+                  <li> Taught subject classes to students aged 10 to 16. Students of all linguistic, cultural, and economic backgrounds.</li>  
+                  <li> Taught music classes to students in cluding piano, guitar, percussion, ear training, music history, and music reading, writing, and composition.</li> 
+                  <li> Coached small groups of students </li>
+                  <li> </li>
+          </ul>
+          </p>
+          
+        </div>
+            <!-- Technologies Used and Awards Recieved -->
+            <!-- Make sure to align content properly -->
+          
+      </div><!-- End of Job Container -->
+
+<!-- --><!-- --><!-- -->
+
+
+
+
+
+<!--          Don't forget to add these jobs to the page!!
+    <h1>Container for iwork global</h1>    
+    <h1>group M</h1>    
+    <h1>Walt Disney</h1>    
+    <h1>Thoresen Thai Agency</h1>
+-->
+
+
+</section>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- END PIC GALLERY -->    
+<!-- footer section -->
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="col-md-4">
+      <h4>Contact Information</h4>
+      <p> Alex Harrison<br>
+        4323 Olympic Blvd<br>
+        Everett, WA 98203<br>
+        Phone: 857.316.7053 <br>
+        Email : <a href="mailto:alexanderjosephharrison@gmail.com"> alexanderjosephharrison@gmail.com </a></p>
+    </div>
+    <div class="col-md-3">
+      <h4><a href="https://www.linkedin.com/in/alexander-harrison-60233ab8/">Linkedin</a></h4>
+      <ul class="footer-share">
+
+       <!-- 
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+       
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+       -->
+       <li><a href="https://twitter.com/alexharrisonsax"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/alexander-harrison-60233ab8/"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="col-md-5">
+      <p>© 2017 All rights reserved. All Rights Reserved<br>
+        Site adapted by <a href= "https://www.linkedin.com/in/alexander-harrison-60233ab8/"> Alex Harrison </a><a href:"mailto:alexanderjosephharrison@gmail.com">(contact here)</a> from a <a href="http://www.designstub.com/">Designstub</a> template</p>
+    </div>
+  </div>
+</footer>
+<!-- footer section --> 
+
+
+
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script>     
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
