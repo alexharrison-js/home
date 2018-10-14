@@ -1,0 +1,46 @@
+body{
+        background-image: url("background%20images/clear%20sky.jpg"); 
+        background-size: cover;     
+}
+
+.container{
+    display:grid;
+    align-content: center;
+    justify-content: space-around;
+    width: 35%;
+    background-color: rgb(221, 224, 224); 
+    border-radius: 2em;
+    margin-left: 30%;
+    
+
+    
+    
+    
+}
+.item{
+    justify-self: center;
+    
+}
+#FBtn{
+
+    justify-self: center;
+}
+#FBtn:hover{
+    box-shadow: 2px 2px 2px;
+    color: rgb(77, 73, 77);
+}
+#CBtn{
+    justify-self: center;
+}
+#CBtn:hover{
+    box-shadow: 2px 2px 2px;
+    color: rgb(77, 73, 77);
+}
+
+.search{
+    text-align: center;
+    } 
+.mylinks{
+    justify-content:center;
+    text-align: center;
+} 

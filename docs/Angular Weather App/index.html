@@ -1,0 +1,60 @@
+<head> 
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script type="text/javascript" src="/Users/Alex/Desktop/Exfi/Free Code Camp/Weather App/ang1.js" ></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <link rel = "stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/png" href="sun.png"/>
+        <title>Weather App Sample Debugging HTML File</title>
+        
+        
+</head>
+
+<body>
+    <div
+ng-app = "weatherApp"
+ng-controller = "weatherCtrl as ctrl1"
+class="homeboy">
+    {{info.reading}}
+    {{info.title}}
+    {{speed}}
+    {{weather}}
+</div>
+</body>
+<!--Import Angular
+-->
+<!--
+Make sure to make it run in both Codepen.io AND from actual files from <index class="html">
+    see this for info on differences:
+    https://www.youtube.com/watch?v=t6pK34p0Hto
+-->
+<!--
+Process
+
+First import all dependents and list dependents
+THEN instantiate an app
+THEN instantiate a controller (or controllers) for the app
+Figure out what's going on with ($scope) in this cass for angular.js
+
+create divs for ng-app and ng-controller  
+
+$scope.object ={
+    property1: "First Definition of Object",
+    property2: "Second Definition of Object"
+}
+
+Target our angular objets using html file:
+
+<h1> {{object.property1}} </h1>
+<h2> {{object.property2}}</h2>
+
+Super helpful for repeating things:
+
+html:
+    <ul ng-repeat = "whatevs in array">
+        <li>{{whatevs.whatevs}}</li>
+    </ul>
+
+js:
+    $scope.array = [{whatevs: "1"},{whatevs: "2"},{whatevs:"3"}]
+
+-->

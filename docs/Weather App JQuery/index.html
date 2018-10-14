@@ -1,0 +1,47 @@
+<!-- This is an attempt using only jquery to build this app -->
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel = "stylesheet" href="style.css">
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="main.js" ></script>
+        
+            <link rel="shortcut icon" type="image/png" href="sun.png"/>
+            <title>JQuery Weather App</title>
+        </head>
+        <body >
+        
+            <div class="container col-md-7">
+                <div class = "item title" id="titleId" ><h1>Alex's Jquery Weather App</h1></div>
+                <div class = "item city" id="cityId" > <h3>You are currently in </h3></div>
+                <div class = "item temp" id="tempId" ><h3></h3></div>
+                <div class = "item weather" id="weatherId" ><h3></h3></div>
+               <!-- <div class = "item logo" id="logoId" ><h3>{{vm.info.graphic}}</h3></div>-->
+                <div class = "item logo" id="logoId" ></div>
+                <!-- Inject the picture from the object -->
+                <div class = "item search" >This app uses your IP address to determine your city based on your ISP location, <br> so it might not be 100% accurate. <br> Not your city? Find a New city:
+                    
+                        <input type="text" id="newCity" placeholder="City Name"></input><button id="citySearchBtn" >Search</button> 
+        
+                </div>
+        
+        <!-- Toggle needs to be set up after the buttons and search and toC toF  is properly listening to the button click -->
+        <!-- Then, got to make sure that the toggle hides the button that is currently activated on the page -->
+        
+                <div id="FBtn"><button class="btn" id="toFBtn">Change Temperature to Fahrenheit</button></div>
+                <!-- Make sure that it connects to the JS event listener properly  -->
+            
+                <div id="CBtn"><button class="btn" id="toCBtn">Change Temperature to Celsius</button></div>
+                <!-- Make sure that it connects to the JS event listener properly -->
+                <div class = "item mylinks"> <h4>This site created by Alex Harrison. Check out my works here:</br> <a href="http://www.codepen.io/alexharrisonmusic">www.codepen.io/alexharrisonmusic </a></br>or</br><a href="http://www.github.com/alexharrisonmusic">www.github.com/alexharrisonmusic</a></h4></div>
+        
+        
+            </div>
+        
+        
+        </body>
+        
+        </html>
+        
