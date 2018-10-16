@@ -3,7 +3,7 @@
 This site is hosted to serve as a Personal Portfolio with Samples
 
 ## Alex Harrison   Seattle, WA   alexanderjosephharrison@gmail.com  (857)316-7053 
-## https://alexharrison-js.github.io/  |  github.com/alexharrison-js  
+## https://alexharrison-js.github.io/home/  |  github.com/alexharrison-js  
 
 ### Summary 
 I have experience in the creative industry as a musician, and in the education industry as a Music / English / ESL / Coding (UW) instructor. I am seeking a position creating dynamic, scalable, maintainable applications in the Seattle / Bellevue Area.
