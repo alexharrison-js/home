@@ -1,10 +1,7 @@
 | Software Developer                | Seattle, WA                       |
 |                                   |                                   |
-| [[https://github.com/alexharrison | alexanderjosephharrison[[\@gmail. |
-| -js]{.underline}](https://github. | com\                              |
-| com/alexharrison-js)              | ]{.underline}](mailto:adam@gmail. |
-|                                   | com)857                           |
-|                                   | 316 7053                          |
+|https://github.com/alexharrison-js | alexanderjosephharrison@gmail.com |
+|                                   | 857 316 7053                      |
 
  WORK EXPERIENCE
 ===============
