@@ -1,7 +1,6 @@
-| Software Developer                | Seattle, WA                       |
-|                                   |                                   |
-|https://github.com/alexharrison-js | alexanderjosephharrison@gmail.com |
-|                                   | 857 316 7053                      |
+ Software Developer                 Seattle, WA                                                                                       
+https://github.com/alexharrison-js  alexanderjosephharrison@gmail.com 
+                                    857 316 7053                      
 
  WORK EXPERIENCE
 ===============
@@ -16,7 +15,7 @@ Software Developer, Have a Heart CC - *Nov/2018  - present -* Seattle, WA
     resources. API and middleware development, serverless functions.
     Projects:
 
-<!-- -->
+-   Azure Serverless Functions / Cloud Hosted Microservices / React.js application for Data management, archiving, and centralization.
 
 -   Browser automation and web-scraping web apps / CLI app
 
@@ -27,6 +26,7 @@ Software Developer, Have a Heart CC - *Nov/2018  - present -* Seattle, WA
 -   IoT storefront data processing -- line times analytics
 
 -   Organizational productivity suite migration -- Google -\> Office 365
+
 
 Full Stack Web Development Tutor, Trilogy Education - *July/2018 - Present -* Seattle, WA (Online w/ Universities across the U.S.)
 ----------------------------------------------------------------------------------------------------------------------------------
